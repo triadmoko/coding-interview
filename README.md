@@ -2,11 +2,12 @@
 ## How To Use
 call the coding interview function inside main.go
 
-example
+### simple array sum
+example test `simple array sum`
 ```go
 func main(){
-    sas := SimpleArraySum(200)
-    fmt.Println(sas)
+    val := []int{1, 2, 43, 45, 34, 3, 534}
+	algorithms.SimpleArraySum(val)
 }
 ```
 
