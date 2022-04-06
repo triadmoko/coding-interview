@@ -6,8 +6,9 @@ go get github.com/triadmoko/coding-interview
 ```
 
 call the coding interview function inside main.go
+### Algorithms
 
-### simple array sum
+#### simple array sum
 example test `simple array sum`
 
 
