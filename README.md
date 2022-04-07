@@ -11,15 +11,18 @@ call the coding interview function inside main.go
 #### simple array sum
 example test `simple array sum`
 
-
 ```go
-package main
-
-import "github.com/triadmoko/coding-interview/algorithms"
-
 func main() {
 	val := []int{12, 124, 32, 43, 423, 423}
 	algorithms.SimpleArraySum(val)
 }
 ```
 
+### Array DS
+example test `array DS`
+```go
+func main() {
+	val := []int{12, 124, 32, 43, 423, 423}
+	datastructures.ReverseArray(val)
+}
+```
