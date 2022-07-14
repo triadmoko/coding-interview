@@ -1,4 +1,4 @@
-# Coding Interview
+# Coding Interview HackerRank
 ## How To Use
 clone module 
 ```git
@@ -17,7 +17,17 @@ func main() {
 	algorithms.SimpleArraySum(val)
 }
 ```
+#### AVeryBigSum
+example test `simple a very big sum`
 
+```go
+func main() {
+	val := []int64{1000000001, 1000000002, 1000000003, 1000000004, 1000000005}
+	algorithms.AVeryBigSum(val)
+}
+```
+
+## Data Structures
 ### Array DS
 example test `array DS`
 ```go

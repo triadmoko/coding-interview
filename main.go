@@ -1,14 +1,14 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/triadmoko/coding-interview/algorithms"
-	datastructures "github.com/triadmoko/coding-interview/data-structures"
 )
 
 func main() {
 	// simpel array sum
-	val := []int{1, 2, 43, 45, 34, 3, 534}
-	algorithms.SimpleArraySum(val)
-	
-	datastructures.ReverseArray(val)
+	val := []int64{1000000001, 1000000002, 1000000003, 1000000004, 1000000005}
+	data := algorithms.AVeryBigSum(val)
+	fmt.Println(data)
 }
